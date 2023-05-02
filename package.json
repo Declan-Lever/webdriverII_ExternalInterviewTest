@@ -1,0 +1,26 @@
+{
+  "name": "webdriverii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js",
+    "tradingAccount": "wdio run ./wdio.conf.js --spec ./test/specs/tradingAccountTest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.8.8",
+    "@wdio/local-runner": "^8.8.8",
+    "@wdio/mocha-framework": "^8.8.7",
+    "@wdio/spec-reporter": "^8.8.7",
+    "chai": "^4.3.7",
+    "chromedriver": "^112.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.16"
+  }
+}
